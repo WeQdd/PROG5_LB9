@@ -29,4 +29,6 @@ curl -X GET -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzd
 {"current_level":{"level":"Серебро","min_spending":0.0,"cashback":0.01},"next_level":{"level":"Золото","min_spending":10000.0,"cashback":0.02}}
 
 
+### Скриншот с результатом
+
 ![image](https://github.com/user-attachments/assets/ec858a40-fe55-4a6d-8ae7-22893189910d)
