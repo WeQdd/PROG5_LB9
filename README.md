@@ -19,10 +19,9 @@ curl -X POST -d "username=admin&password=admin" http://localhost:8000/token
 
 ### Получаем информацию об уровне бонусной программы
 
-```
-  ```bash
-  curl -X GET -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczNDU0Nzk4MX0.CI8FlnWXL-yyUuiFvaMZQtbHtzznsRInnsRvB3tIlRw" http://localhost:8000/bonus
-  ```
+
+```bash
+curl -X GET -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTczNDU0Nzk4MX0.CI8FlnWXL-yyUuiFvaMZQtbHtzznsRInnsRvB3tIlRw" http://localhost:8000/bonus
 ```
 
 Полученный результат:
